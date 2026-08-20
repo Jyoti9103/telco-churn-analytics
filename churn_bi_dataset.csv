@@ -1,8 +1,0 @@
-import pandas as pd
-
-# Load dataset directly from raw GitHub URL
-url = "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv"
-df = pd.read_csv(url)
-
-print("Dataset Loaded Successfully!")
-print(df.head())
